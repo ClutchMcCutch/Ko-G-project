@@ -23,7 +23,7 @@ body {
 #title {
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
     font-family: 'EB Garamond', serif;
 }
@@ -33,6 +33,11 @@ body {
 }
 
 #intro {
+    inline-size: 700px;
+    overflow-wrap: break-word;
+}
+
+#family1 {
     inline-size: 700px;
     overflow-wrap: break-word;
 }
