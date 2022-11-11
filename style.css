@@ -8,18 +8,6 @@ body {
     font-size: 23px;
 }
 
-/* #cuisine1 {
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-    font-family: 'Montserrat', sans-serif;
-    margin: 5px;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 20px;
-    inline-size: 300px;
-    overflow-wrap: break-word;
-    font-size: 20px;
-} */
-
 #title {
     position: relative;
     text-align: center;
