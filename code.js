@@ -34,12 +34,13 @@ function changeBackground(){
     "url(art/mali.jpg)",
     "url(art/dance.jpg)",
     "url(art/islam.jpg)",
-    "url(art/musa.jpg)"
+    "url(art/musa.jpg)",
+    "url(art/imposter.jpg)"
   ];
   body = document.body.style;
   current++
   current = current % bgList.length;
   body.backgroundImage = bgList[current]
 
-  console.log(current, bgList[current])
+  console.log(body.backgroundImage)
 }

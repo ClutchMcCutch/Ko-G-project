@@ -3,6 +3,7 @@
 body {
     background-color: rgb(247, 247, 247);
     background-image: url(art/mali.jpg);
+    background-size: cover;
 }
 
 #tab {
