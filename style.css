@@ -1,3 +1,13 @@
 body {
     background-color: blanchedalmond;
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    font-family: 'Libre Baskerville', serif;
+}
+
+#food1 {
+    margin: 5px;
+    border: 2px solid rgb(170, 170, 170);
+    padding: 10px;
+    border-radius: 30px;
+    background: rgb(255, 251, 230);
 }
