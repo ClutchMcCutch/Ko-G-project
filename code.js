@@ -26,7 +26,7 @@ function openLink(evt, animName) {
   evt.currentTarget.className += " w3-red";
 }
 
-
+// function by chip
 var current = 0
 function changeBackground(){
   var body, bgList;
@@ -41,6 +41,4 @@ function changeBackground(){
   current++
   current = current % bgList.length;
   body.backgroundImage = bgList[current]
-
-  console.log(body.backgroundImage)
 }
