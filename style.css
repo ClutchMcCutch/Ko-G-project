@@ -1,13 +1,29 @@
 body {
-    background-color: blanchedalmond;
-    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(255, 245, 231);
 }
 
-#food1 {
+#tab {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+}
+
+#cuisine1 {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+    font-family: 'Montserrat', sans-serif;
     margin: 5px;
-    border: 2px solid rgb(170, 170, 170);
+    border: 2px solid black;
     padding: 10px;
-    border-radius: 30px;
-    background: rgb(255, 251, 230);
+    border-radius: 20px;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    font-size: 20px;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+    font-family: 'EB Garamond', serif;
 }
