@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="tabs.css">
 </head>
 
-<body>
+<body id="body">
     <div id="tab" class="w3-bar w3-black">
-        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Home')">Home</button>
-        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Family')">Families and Villages</button>
-        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Women')">Women</button>
-        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Art')">Art and Religion</button>
-        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Class')">Class</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Home'); changeBackground();">Home</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Family'); changeBackground();">Families and Villages</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Women'); changeBackground();">Women</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Art'); changeBackground();">Art and Religion</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event,'Class'); changeBackground();">Class</button>
     </div>
 
     <div id="title">
@@ -56,7 +56,7 @@
         <h2 id="heading">Hello there</h2>
         <p id="pg">blah blah</p>
         <p id="pg">blah</p>  
-        <img id="beninArt" src="benin_art.png">     
+        <img id="beninArt" src="art/benin_art.png">     
     </div>
     <div id="Class" class="w3-container city w3-animate-opacity" style="display:none">
         <h2 id="heading">Religion</h2>
