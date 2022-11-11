@@ -31,3 +31,8 @@ body {
 #heading2 {
     font-size: 30px;
 }
+
+#intro {
+    inline-size: 700px;
+    overflow-wrap: break-word;
+}
