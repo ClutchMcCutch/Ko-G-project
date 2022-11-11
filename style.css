@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
 body {
     background-color: rgb(255, 245, 231);
 }
 
 #tab {
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
 }
@@ -12,7 +13,6 @@ body {
     position: relative;
     text-align: center;
     font-size: 53px;
-    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
     font-family: 'EB Garamond', serif;
 }
 
@@ -23,7 +23,6 @@ body {
 #pg {
     inline-size: 700px;
     overflow-wrap: break-word;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
     font-family: 'Montserrat', sans-serif;
     /* margin: 10px; */
     border: 2px solid black;
