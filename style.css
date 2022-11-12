@@ -16,12 +16,19 @@ body {
     text-align: center;
     font-size: 53px;
     font-family: 'EB Garamond', serif;
+    text-shadow: 3px 3px 6px red;
 }
 
 #heading {
+    inline-size: 700px;
+    overflow-wrap: break-word;
     font-size: 40px;
     font-weight: 600;
-    color: #000000
+    border: 5px inset rgb(216, 58, 58);
+    padding: 12px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 #pg {
