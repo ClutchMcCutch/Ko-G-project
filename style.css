@@ -50,3 +50,11 @@ body {
     width: 316px;
     height: 505.6px;
 }
+
+#familyPic {
+    position: absolute;
+    top: 227.5px;
+    right: 50px;
+    border: 5px inset rgb(216, 58, 58);
+    border-radius: 20px;
+}
